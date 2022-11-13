@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: hr-config-server
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          uri: https://github.com/EddieSCJ/ms-spring-ecosystem-course-config-server
+server:
+  port: 8888
