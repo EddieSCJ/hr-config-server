@@ -7,5 +7,7 @@ spring:
         git:
           default-label: main
           uri: https://github.com/EddieSCJ/ms-spring-ecosystem-course-config-server
+#          username:
+#          password:
 server:
   port: 8888
